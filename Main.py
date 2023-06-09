@@ -21,7 +21,7 @@ def main():
     title = QLabel("Sudoku Solver", gridFrame)
     title.setAlignment(Qt.AlignHCenter)
     title.setFont(QFont('Arial', 16, QFont.Bold))
-    gridLayout.addWidget(title, 0, 0, 1, 9)
+    gridLayout.addWidget(title, 0, 0, 1, 10)
 
     inputArray = [[0] * 9 for _ in range(9)]
     cellArray = []
